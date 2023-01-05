@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  /* background-color: #8b9fa9; */
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+.container {
+  margin: 2rem auto;
+  max-width: 1440px;
+  overflow: hidden;
+  display: flex;
+}
+
+.leftside {
+  width: 70%;
+}
+
+.header {
+  background-color: #424d61;
+  height: 4rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  width: 95%;
+  margin: 0 1rem 1rem;
+  border-radius: 0.5rem;
+}
+.header span {
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+textarea {
+  border: 1px solid black;
+  resize: none;
+  margin: 0 1rem;
+  width: 95%;
+  font-size: 1.5rem;
+  padding: 1rem;
+  height: 500px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  transition: all ease-in 0.6s;
+}
+textarea:focus {
+  border: 2px solid #424d61;
+  outline: none;
+}
+
+.rightside {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 1rem;
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftside {
+    width: 100%;
+  }
+  .rightside {
+    width: 100%;
+  }
+}
+
+.rightside p {
+  background-color: #424d61;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+.rightside ul {
+  margin-top: 0.5rem;
+}
+.rightside ul li {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+  border-left: 3px solid #424d61;
+  background-color: #eee;
+  display: flex;
+}
+li span {
+  margin-left: auto;
+  padding: 0.2rem 0.5rem;
+  color: #424d61;
+  font-size: 1.3rem;
+  background-color: #424d612d;
+  border-radius: 0.5rem;
+}
+button {
+  margin-top: 1rem;
+  width: fit-content;
+  padding: 0.3rem 1rem;
+  color: white;
+  background-color: rgb(204, 3, 3);
+  border: none;
+  outline: none;
+  transition: all ease-in-out 0.2s;
+  border-radius: 0.5rem;
+
+  font-size: 1.5rem;
+}
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
+/* #313443 */
+/* #515d75 */
+/* #bebebe */
+/* #ffffff */
+/* #ee8156 */

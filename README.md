@@ -1,1 +1,1 @@
-# Word-counter
+Word Counter app.

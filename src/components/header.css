@@ -1,0 +1,16 @@
+.header-header{
+  background-color: #424d61;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+.header-header p{
+  color: white;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1rem ;
+}
+.header-header p span {
+  font-size: 0.7rem;
+}
